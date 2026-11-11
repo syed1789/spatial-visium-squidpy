@@ -1,5 +1,7 @@
 # Spatial Transcriptomics: 10x Visium (mouse brain) with Scanpy + Squidpy
 
+[![CI](https://github.com/syed1789/spatial-visium-squidpy/actions/workflows/ci.yml/badge.svg)](https://github.com/syed1789/spatial-visium-squidpy/actions/workflows/ci.yml)
+
 End-to-end spatial analysis of a public 10x Genomics Visium dataset (adult mouse brain coronal section, H&E; 2,688 spots x 18,078 genes), from QC to spatial statistics and ligand-receptor inference. One script, one command, every figure regenerated from scratch.
 
 Data: `squidpy.datasets.visium_hne_adata()` (the Squidpy tutorial copy of the 10x dataset, downloaded automatically on first run, ~330 MB, not committed).
